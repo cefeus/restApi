@@ -2,7 +2,6 @@ import Models.postsModel;
 import Utils.JsonConvertingUtils;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import userModel.usersModel;
 import Utils.RestAPIUtils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
@@ -33,7 +32,7 @@ public class Consumer {
         RestTemplate rt = new RestTemplate();
         ResponseEntity<String> re = rt.exchange(URL, HttpMethod.GET, null, String.class);
         postsModel[] model;
-        model = JsonConvertingUtils.convertJsonToObject(postsModel[].class, re);
+        model = JsonConvertingUtils.convertJsonToObjectFromString(postsModel[].class, re.getBody().toString());
 
 //        ResponseEntity<String> resp = util.sendPostRequest(URL, model[1]);
 //        System.out.println(resp);
