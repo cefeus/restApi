@@ -1,0 +1,11 @@
+{
+  "mainUrl": "https://jsonplaceholder.typicode.com",
+  "allPostsUrl": "/posts",
+  "allUsersUrl": "/users",
+  "secondStepPostId": "/99",
+  "secondStep_Id": "99",
+  "secondStep_UserID": "10",
+  "thirdStepPostId": "150",
+  "fifthStepUserId": "5",
+  "sixthStepUserId": "5"
+}
