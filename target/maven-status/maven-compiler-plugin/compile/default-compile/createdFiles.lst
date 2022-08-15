@@ -1,0 +1,9 @@
+Utils\RestAPIUtils.class
+Models\userModel\Company.class
+Utils\APIRequestsAdapter.class
+Models\userModel\Geo.class
+Utils\RandomGeneratingMethods.class
+Models\PostsModel.class
+Models\userModel\Address.class
+Utils\JsonConvertingUtils.class
+Models\userModel\UsersModel.class

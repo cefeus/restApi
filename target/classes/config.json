@@ -1,0 +1,6 @@
+{
+  "mainUrl": "https://jsonplaceholder.typicode.com",
+  "allPostsUrl": "/posts",
+  "allUsersUrl": "/users",
+  "pathToSampleUser": ".\\src\\main\\resources\\sampleUser.json"
+}
