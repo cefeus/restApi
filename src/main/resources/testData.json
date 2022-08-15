@@ -1,12 +1,12 @@
 {
-  "mainUrl": "https://jsonplaceholder.typicode.com",
-  "allPostsUrl": "/posts",
-  "allUsersUrl": "/users",
   "secondStepPostId": "/99",
   "secondStep_Id": "99",
   "secondStep_UserID": "10",
   "thirdStepPostId": "150",
   "fourthStep_UserId": "1",
   "fifthStepUserId": "5",
-  "sixthStepUserId": "/5"
+  "sixthStepUserId": "/5",
+  "getStatusCode_success": "200",
+  "postStatusCode_success": "201",
+  "getStatusCode_notFound": "404"
 }

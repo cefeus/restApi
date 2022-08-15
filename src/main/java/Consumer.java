@@ -36,19 +36,19 @@ public class Consumer {
 
 //        ResponseEntity<String> resp = util.sendPostRequest(URL, model[1]);
 //        System.out.println(resp);
-//        for (postsModel mod : model) {
+//        for (PostsModel mod : model) {
 //            System.out.println(mod);
 //          String responseEntity = util.sendGetRequest("https://jsonplaceholder.typicode.com/users");
 //        System.out.println(responseEntity);
-//        postsModel[] model1;
-//        usersModel[] model;
+//        PostsModel[] model1;
+//        UsersModel[] model;
 //        String respinse = util.sendGetRequest("https://jsonplaceholder.typicode.com/posts");
-//        model1 = mapper.readValue(respinse, postsModel[].class);
-//          model = mapper.readValue(responseEntity,usersModel[].class);
+//        model1 = mapper.readValue(respinse, PostsModel[].class);
+//          model = mapper.readValue(responseEntity,UsersModel[].class);
         }
 
 
-//          model = mapper.readValue(responseEntity, postsModel[].class);
+//          model = mapper.readValue(responseEntity, PostsModel[].class);
 //          System.out.println(model[0]);
 
     }
